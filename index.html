@@ -5,22 +5,23 @@
 <head>
     <meta charset="utf-8" />
     <title>Dr. Ramón F, Grillo Morales MD</title>
-    <!---->
+    <!--Linked to stylesheet. Found the href via GitBash-->
     <link rel="stylesheet" href="assets/css/style.css" />
 </head>
-
 <body>
-    <!---->
+    <!--All the id and class attributes are going to appear in CAPS LOCK and with dashes (-) instead of spaces.-->
     <div class="BODY">
         <header>
-            <!---->
-            <h3>For appointments | 954.774.5887 | <a href="https://www.zocdoc.com/"><strong>Schedule an Appointment Online</strong></a></h3>
+            <!--The href attribute has link attached to an online medical appointment booking site-->
+            <h4>For appointments | 954.774.5887 | <a href="https://www.zocdoc.com/"><strong>Schedule an Appointment Online</strong></a></h4>
         </header>
-        <!---->
+        <!--The nav attribute was given to create an horizontal menu-->
         <nav>
+            <!--An id attribute was given to this list for styling-->
+            <!--The href attribute for each list item is a link to the section on the webpage with more info-->
             <ul id="MAIN-MENU">
                 <li><a href="">About</a></li>
-                <li><a href="">General & Family Medicine</a></li>
+                <li><a href="">General Medicine</a></li>
                 <li><a href="">Emergency Medicine</a></li>
                 <li><a href="">Plans Accepted</a></li>
                 <li><a href="">Office Hours</a></li>
@@ -28,23 +29,22 @@
                 <li><a href="">Contact Information</a></li>
             </ul>
         </nav>
-        <!---->
+        <!--A class attribute was given to this section for styling-->
         <section class="LOGO-PHOTO">
+            <br/>
+            <!--A class attribute was given to each image for styling,resizing and positioning-->
             <img class="GRILLO-LOGO" src="assets/images/Dr. Grillo Logo.jpg" />
-            <br />
             <img ID="GRILLO-PHOTO" src="assets/images/Dr. Grillo Photo.jpg" />
-            <br />
         </section>
-        <!---->
+        <!--A class attribute was given to this section for positioning-->
         <section class="ABOUT-GENERAL-AND-EMERGENCY-MEDICINE">
-            <h3>About</h3>
-            <!---->
+            <h4>About</h4>
+            <!--A class attribute was given to this paragraph for styling-->
             <p class="ABOUT">Dr. Ramon F. Grillo Morales is a General Practice Specialist in San Juan Puerto Rico. He graduated with honors in 2015 and has various hospital affiliations in the island.</p>
-            <br />
-            <h3>General Medicine</h3>
-            <!---->
+            <h4>General Medicine</h4>
+            <!--A class attribute was given to this paragraph for styling-->
             <p class="GENERAL-MEDICINE">8+ Years of experience treating the following conditions:</p>
-            <!---->
+            <!--An id attribute was given to this list for styling-->
             <ul id="TREATED-CONDITIONS">
                 <li>Hypertension</li>
                 <li>Backpain</li>
@@ -54,11 +54,10 @@
                 <li>Respiratory Tract Infections</li>
                 <li>Urinary Tract Infections</li>
             </ul>
-            <br />
-            <h3>Emergency Medicine</h3>
-            <!---->
+            <h4>Emergency Medicine</h4>
+            <!--A class attribute was given to this paragraph for styling-->
             <p class="EMERGENCY-MEDICINE">Dr. Grillo is affiliated with the following hospitals:</p>
-            <!---->
+            <!--An id attribute was given to this list for styling-->
             <ul id="HOSPITAL-AFFILIATIONS">
                 <li>Ashford Presbyterian Hospital</li>
                 <li>Professional Hospital Guaynabo</li>
@@ -66,36 +65,35 @@
                 <li>Dr. Ramon Ruiz Arnau Hospital (HURRA Bayamon)</li>
             </ul>
         </section>
-        <!---->
-        <section class="PLANS-ACCEPTED-OFFICE-HOURS-MAP">
-            <h3>Plans Accepted</h3>
-            <!---->
-            <ul id="PLANS-ACCEPTED">
-                <li><img id="SSS" src="assets/images/SSS.png" /></li>
-                <li><img id="MCS" src="assets/images/MCS.png" /></li>
-                <li><img id="MMM" src="assets/images/MMM.png" /></li>
-                <li><img id="MEDICARE" src="assets/images/Medicare.png" /></li>
-                <li><img id="MAPFRE" src="assets/images/MAPFRE.png" /></li>
-                <li><img id="HUMANA" src="assets/images/Humana.jpg" /></li>
-                <li><img id="FIRST-MEDICAL" src="assets/images/First Medical.jpg" /></li>
-            </ul>
-            <br />
-            <h3>Office Hours</h3>
-            <!---->
-            <img class="OFFICE-HOURS" src="assets/images/Office Hours.jpg" />
-            <!---->
-            <ul id="OFFICE-HOURS">
-                <li>Mon.- Thu. 7:00 a.m. to 4:00 p.m.</li>
-                <li>Fri. 4:00 p.m. to 10:00 p.m.</li>
-                <li>Sat. 8:00 a.m. to 5:00 p.m.</li>
-            </ul>
-            <br />
-            <h3>Map</h3>
-            <!---->
-            <a href="">Google Maps</a>
-        </section>
+        <br/>
+        <!--A class attribute was given to this section for positioning-->
+            <section class="PLANS-ACCEPTED-OFFICE-HOURS-MAP">
+                <h4>Plans Accepted</h4>
+                <!--<!--An id attribute was given to this list for styling-->
+                    <!--A id attribute was given to each image for resize-->
+                    <img id="SSS" src="assets/images/SSS.png" />
+                    <img id="MCS" src="assets/images/MCS.png" />
+                    <img id="MMM" src="assets/images/MMM.png" />
+                    <img id="MEDICARE" src="assets/images/Medicare.png" />
+                    <img id="MAPFRE" src="assets/images/MAPFRE.png" />
+                    <img id="HUMANA" src="assets/images/Humana.jpg" />
+                    <img id="FIRST-MEDICAL" src="assets/images/First Medical.jpg" />
+                <h4>Office Hours</h4>
+                <!--A id attribute was given to each image for resize-->
+                <img class="OFFICE-HOURS" src="assets/images/Office Hours.jpg" />
+                <!--I assigned an id attribute just in case I want to make any changes-->
+                <ul id="OFFICE-HOURS">
+                    <li>Mon.- Thu. 7:00 a.m. to 4:00 p.m.</li>
+                    <li>Fri. 4:00 p.m. to 10:00 p.m.</li>
+                    <li>Sat. 8:00 a.m. to 5:00 p.m.</li>
+                </ul>
+                <h4>Map</h4>
+                <!--The href attribute contains a link to office location in Google Maps-->
+                <a href="">Google Maps</a>
+            </section>
+       
 
-    </div>
+</div>
 
 </body>
 </html>
