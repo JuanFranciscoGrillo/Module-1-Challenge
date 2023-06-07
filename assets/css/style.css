@@ -1,78 +1,92 @@
+/*Assign a class to the body to edit it's appearance on (line #13)*/
 .BODY {
+
     background-color: antiquewhite;
-    width: 900PX;
-}
+    width: 900px;
+    }
+/*Assigned font family, margins, width and height (line #16)*/
 h4 {
     font-family: sans-serif;
     margin-left: 0px;
     background-color: goldenrod;
     width: auto;
-    height: 18PX;
-}
+    height: 18px;
+    }
+/*Assigned id to edit color list (line #22) */
 #MAIN-MENU {
     color: black;
-    width: 900PX;
+    width: 900px;
     font-family: sans-serif;
-}
-    #MAIN-MENU li {
-        display: block;
-        height: 18PX;
-        width: 115px;
-        float: left;
-        font-size: 12px;
-        color: black;
-        text-align: center;
-        border: 1px solid #000;
     }
-    #MAIN-MENU a {
-        display: block;
-        padding: 3px;
-        color: black;
+/*Attributes were assigned to edit horizontal navigation bar appearance*/
+#MAIN-MENU li {
+    display: block;
+    height: 18px;
+    width: 115px;
+    float: left;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    border: 1px solid #000;
     }
-
+#MAIN-MENU a {
+    display: block;
+    padding: 3px;
+    color: black;
+    }
 #MAIN-MENU a:hover {
-            background-color: antiquewhite;
-            color: #fff;
-        }
+    background-color: antiquewhite;
+    color: #fff;
+    }
+/*Assigned id to the section to edit border, margins, display type and width (Line #33)*/
 .LOGO-PHOTO {
+    margin-top: 13px;
     margin-left: 25px;
     display: block;
     width: 900px;
     color: black;
     font-family: sans-serif;
-}
+    }
+/*Assigned an id to image to resize and add border (Line #36)*/
 .GRILLO-LOGO {
     border: 10px solid darkgoldenrod;
     height: 400px;
     width: 400px;
-}
+    }
+/*Assigned an id to image to resize and add border (Line #37)*/
 #GRILLO-PHOTO {
     border: 10px solid darkgoldenrod;
-    position: center;
     height: 400px;
     width: 400px;
-}
+    }
+/*Assigned id to the section to edit border and width (Line #40)*/
 .ABOUT-GENERAL-AND-EMERGENCY-MEDICINE {
     border: 1px solid #000;
     font-family: sans-serif;
     width: 600px;
-}
+    }
+/*Assigend class to the paragraph to edit width (Line #43)*/
 .ABOUT {
     width: 600px
-}
+    }
+/*Assigend class to the paragraph to edit width (Line #46)*/
 .GENERAL-MEDICINE {
     width: 600px
-}
+    }
+/*Assigend class to the paragraph to edit width (Line #48)*/
 .TREATED CONDITIONS {
     border: 1px solid #000;
     width: 600px;
-}
+    }
+/*Assigend class to the paragraph to edit width (Line #59)*/
 .EMERGENCY-MEDICINE {
     width: 600px
-}
+    }
+/*Assigend class to the paragraph to edit width (Line #61)*/
 #HOSPITAL-AFFILIATIONS {
     width: 600px
-}
+    }
+/*Assigned id to the section to edit position and border (Line #70)*/
 .PLANS-ACCEPTED-OFFICE-HOURS-MAP {
     position: absolute;
     left: 625px;
@@ -80,62 +94,64 @@ h4 {
     border: 1px solid #000;
     font-family: sans-serif;
     width: 250px;
-}
-#PLANS-ACCEPTED {
-    display: left;
-    width: 250px;
-    font-family: sans-serif;
-}
+    }
+/*Assigned an id to image to resize (Line #83)*/
 .OFFICE-HOURS {
     margin-left: 90px;
     height: 50px;
     width: 75px;
-}
+    }
+/*Assigned list an id to edit the font size (Line #85)*/
 #OFFICE-HOURS {
     display: left;
     width: 250px;
     font-family: sans-serif;
     font-size: 12px
-}
+    }
+/*Assigned an id attribute to image to resize (Line #74)*/
 #SSS {
-    display: left;
-    font-family: sans-serif;
     height: 75px;
     width: 75px;
-}
+    }
+/*Assigned an id attribute to image to resize (Line #75)*/
 #MCS {
     display: left;
     font-family: sans-serif;
     height: 75px;
     width: 75px;
-}
+    }
+/*Assigned an id attribute to image to resize (Line #76)*/
 #MMM {
     display: left;
     font-family: sans-serif;
     height: 75px;
     width: 75px;
-}
+    }
+/*Assigned an id attribute to image to resize (Line #77)*/
 #MEDICARE {
     display: left;
     font-family: sans-serif;
     height: 75px;
     width: 112.5px;
-}
+    }
+/*Assigned an id attribute to image to resize (Line #78)*/
 #MAPFRE {
     display: left;
     font-family: sans-serif;
     height: 75px;
     width: 112.5px;
-}
+    }
+/*Assigned an id attribute to image to resize (Line #79)*/
 #HUMANA {
     display: left;
     font-family: sans-serif;
     height: 75px;
     width: 112.5px;
-}
+    }
+/*Assigned an id attribute to image to resize (Line #80)*/
 #FIRST-MEDICAL {
     display: left;
     font-family: sans-serif;
     height: 75px;
     width: 112.5px;
-}
+    }
